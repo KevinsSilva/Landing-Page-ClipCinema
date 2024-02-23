@@ -1,0 +1,109 @@
+
+/* Estilos do menu Desktop */
+
+.menu__desktop a:hover{
+    color: var(--cor-Azul);
+    display: inline-block;
+    transform: scale(1.2);
+}
+
+.menu__desktop a {
+    position: relative;
+}
+
+.menu__desktop a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 0%;
+    height: 2px; 
+    background-color:transparent;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.menu__desktop a:hover::after {
+    background-color: var(--cor-Botão); 
+    width: 100%;
+}
+
+.botao:hover {
+    background-color: #0b33f7;
+}
+
+/* Estilos do menu mobile */
+
+.btn__Abrir__Menu i{
+    color: white;
+    font-size: 40px;
+
+}
+
+.menu__mobile{
+    background-color: var(--cor-Preto);
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.menu__mobile.abrir__menu {
+    width: 70%;
+}
+
+.menu__mobile.abrir__menu ~ .overlay__menu{
+    display: block;
+}
+
+
+.menu__mobile .btn__fechar{
+    padding: 20px 5%;
+}
+
+
+.menu__mobile .btn__fechar i{
+    color:#148EFF;
+    width: 30px;
+    font-size: 30px;
+
+}
+
+.menu__mobile nav ul{
+    text-align: center;
+    
+}
+
+.menu__mobile nav ul li a{
+   padding: 20px 0;
+   
+
+}
+
+.menu__mobile nav ul li a{
+    color: var(--cor-Branco);
+    font-family: var(--fonte-primaria);
+    font-size: 32px;
+    display: block;
+}
+
+.menu__mobile nav ul li a:hover{
+    background-color: #148EFF;
+    
+}
+
+.overlay__menu{
+    background-color: #0000007d;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+  
+}

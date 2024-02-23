@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-Preto: #000000;
+    --cor-Cinza: #4F4F4F;
+    --cor-Azul: #148EFF;
+    --cor-Branco: #ffff;
+    --cor-Botão: #148EFF;
+
+    --fonte-primaria:"Roboto", sans-serif;
+    --fonte-secundaria:"Outfit", sans-serif;
+}
+
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-Preto);
+    
+  
+}
+
+.interface{
+    background-color: var(--cor-Cinza);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    
+
+}
+
+.Logo__menu{
+    width: 50%;
+}
+
+.menu__desktop a{
+    color: var(--cor-Branco);
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+}
+
+.menu__desktop li{
+    display: inline-block;
+    padding-right: 40px;
+
+
+}
+
+.Botoes__RedesSociais {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.Tamanho__Icone{
+    width: 50px;
+}
+
+.Logo__Clipcinema1{
+    width: 20px;
+}
+
+.apresentacao{
+    background-image: url(./assest/imagem\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    gap: 100px;
+
+}
+
+.logo__iphone{
+    width: 50%;
+}
+
+.Logo__apresentacao__principal{
+    width: 70%;
+}
+
+.apresentacao__Titulo {
+
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--cor-Branco);
+    font-family: var(--fonte-primaria);
+
+}
+
+.conteudo{
+    color: var(--cor-Branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 200;
+   
+    
+}
+
+.apresentacao__principal{
+           
+    gap: 2rem;
+    display: flex;
+    flex-direction:column
+    
+}
+
+.CinePremier__logo{
+    width: 100%;
+}
+
+
+
+.apresentacao__botao{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botao{
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 50px;
+    background-color: var(--cor-Botão);
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    font-size: 1.56rem;
+    color: var(--cor-Branco);
+}
+
+.icone__download{
+    width: 50px;
+}
+
+
+.logo_CinePremier{
+    width: 100%;
+}
+
+.Apresentacao__Conteudo__Secundario{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo2{
+    font-size: 2rem;
+    padding: 5% 0%;
+    color: var(--cor-Branco);
+    font-family: var(--fonte-secundaria);
+    font-weight: 200;
+    
+}
+
+.Apresentacao__card{    
+
+    font-family: var(--fonte-primaria);
+    color: var(--cor-Branco);
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.cards__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 300px;
+    font-size: 1.25rem;
+    color: var(--cor-Branco);
+    display: flex;
+    gap: 16px;
+    border-radius: 12px;
+    border: 3px solid var(--cor-Branco);
+}
+
+.apresentacao__titulo__card{
+   font-weight: bold;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__card{
+    font-family: var(--fonte-secundaria);
+}
+
+.rodape{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    background-color: #4F4F4F;
+    color: var(--cor-Branco);
+}
+
+.rodape button{
+    padding: 8px;
+    border-radius: 12px;
+    border: 50px;
+    background-color: var(--cor-Botão);
+    font-family: var(--fonte-primaria);
+    font-size: 1.56rem;
+}
+
+.rodape a {
+    color: var(--cor-Branco);
+}
+
+.btn__Abrir__Menu {
+    display: none;
+}

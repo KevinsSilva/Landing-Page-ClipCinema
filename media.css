@@ -1,0 +1,71 @@
+
+    /* Responsividade */
+
+
+@media (max-width: 1020px){
+
+
+    .interface{
+        padding: 10px 5%;
+    }
+
+    .btn__Abrir__Menu{
+        display: block;
+        
+    }
+
+    .apresentacao{
+        padding: 5%;
+    }
+
+    
+    .apresentacao__principal{
+        display: flex;
+        align-items: center;
+        width: auto;
+        font-size: 25px;
+    
+    }
+
+    .menu__desktop{
+        display: none;
+    }
+    
+    .apresentacao__Titulo{
+        font-size: 2rem;
+    }
+
+    .conteudo{
+        font-size: 1.80rem;
+    }
+
+    .Apresentacao__card{
+        font-size: 2rem;
+    }
+    
+
+    .Botoes__RedesSociais{
+        display: none;
+        
+    }
+
+    .conteudo2{
+        font-size: 1.80rem;
+    }
+
+    .cards__container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+    } 
+    
+    .apresentacao__conteudo{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
